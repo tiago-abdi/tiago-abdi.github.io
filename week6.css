@@ -1,0 +1,22 @@
+html {
+    font-size: 54px;
+}
+
+
+.box {
+    border: 2px dashed green;
+}
+
+.text {
+    border: 1vw dashed turquoise;
+    padding: 2vw 10em;
+    /* first value = top bottom padding | second value = right left padding 
+    (4 values = top, right, bottom, left) */
+    margin: 3%; /* essentially outer padding */
+}
+
+/* ems and rems
+view width and hieght
+percentages */
+
+
