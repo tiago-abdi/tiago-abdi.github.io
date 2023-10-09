@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../assets/wa6_img.jpg);
+}
+
+
+.ancestorbox{
+    position: absolute;
+    bottom: 100px;
+    right: 250px;
+}
+
+
+.box1, .box2, .box3{ 
+    width: 200px;
+    height: 75px;
+    position: absolute;
+}
+ 
+.box1{
+    background-color: rgb(255, 255, 255,.3);
+}
+
+
+.box2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    bottom: -95px;
+    right: -260px;
+
+}
+
+.box3{
+   position: absolute;
+   background-color: rgba(149, 175, 223, 0.3);
+   top: -20px;
+   left: -20px;
+} 
+ 
+
