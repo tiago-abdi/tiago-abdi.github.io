@@ -1,0 +1,55 @@
+p {
+    font-size: 5vw;
+}
+
+.delay {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    50% {
+        color: darkcyan;
+        font-size: 7vw;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.JMBLC {
+    animation: 3s infinite alternate JMBLC;
+}
+
+@keyframes JMBLC{
+    from {
+        font-size: 1vw;
+        color: darkslategray;
+    }
+
+    to {
+        font-size: 25vw;
+        color: darkseagreen;
+    }
+}
+
+#hover {
+    font-size: 5vw;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: .25s;
+}
+
+#hover:hover {
+    font-size: 15vw;
+    color: darkslategray;
+}
