@@ -1,0 +1,77 @@
+@media (min-width: 400px) {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    background-image: url(../../img/BETTER_LASER.jpeg) ;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.main {
+    display: grid;         
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+header {
+    background-color: #ff2d55; 
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.subhead {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.event {
+    background-color: #1e90ff; 
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: .95;
+}
+
+.event:hover {
+    opacity: 1.0;
+  }
+.event h2 {
+    font-size: 24px;
+}
+
+.event p {
+    line-height: 1.6;
+}
+
+aside {
+    background-color: #ffae42; 
+    color: black; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 400px) {
+    .main {
+        display: grid;         
+        grid-template-columns: 1fr; 
+    }
+}
+}
