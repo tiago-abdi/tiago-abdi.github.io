@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="free" onmouseover="money">  FREE MONEY $$$ </h1>
+
+    <div id="press" type="button"> Press me for money$$$ </div>
+
+    <div> </div>
+
+    <script> 
+        const press = document.getElementById("press");
+        const free = document.getElementById("free");
+
+        press.addEventListener('click', updateName);
+        free.addEventListener('mouseover', money);
+
+        function updateName() {
+            console.log("The function ran correctly");
+            press.innerHTML = `<img src="../img/bart.jpeg">`
+        }
+
+        function money() {
+            console.log("The function ran correctly");
+            free.innerHTML = `<h1> Get $1,000,000 for free if you click below!!! </h1>`
+        }
+        
+       
+
+    </script>
+</body>
+</html>
