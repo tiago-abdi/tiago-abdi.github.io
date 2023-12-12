@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #phoneNumberContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #phoneNumber {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .phoneNumber {
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  
+  .generateButton {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  #timer {
+    font-size: 30px;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  #generateButtons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  #submitButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
