@@ -128,7 +128,6 @@ function acceptCookies() {
   const cookiesPopup = document.getElementById('cookiesPopup');
   cookiesPopup.style.display = 'none';
 
-  // Set a flag in localStorage to indicate that cookies are accepted
   localStorage.setItem('cookiesAccepted', 'true');
 }
 
@@ -142,15 +141,13 @@ window.onload = () => {
   startTimer();
   generatePhoneNumber();
   moveButtonsRandomly();
-  showPopupEvery5Seconds(); // Add this line to start showing the popup every 5 seconds
+  showPopupEvery5Seconds(); 
 
   const submitButton = document.getElementById('submitBtn');
   submitButton.onclick = showPhoneNumberPopup;
 
-  // Check if the user has already accepted cookies
   const cookiesAccepted = localStorage.getItem('cookiesAccepted');
 
-  // If cookies are not accepted, show the cookies popup
   if (!cookiesAccepted) {
     showCookiesPopup();
   }
